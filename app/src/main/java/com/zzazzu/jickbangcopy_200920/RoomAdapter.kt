@@ -25,6 +25,10 @@ class RoomAdapter(
 
         val row = tempRow!!
 
+        val priceTxt = row.findViewById<TextView>(R.id.priceTxt)
+        val addressAndFllorTxt = row.findViewById<TextView>(R.id.addressAndFloorTxt)
+
+
         return row
 
     }
